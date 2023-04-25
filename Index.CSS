@@ -22,8 +22,31 @@
     top: 47%;
 }
 
+#repassword{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 11%;
+    height: 3%;
+    padding: 20px;
+    position: fixed;
+    left: 35%;
+    top: 57%;
+}
 
-.input1{
+#memorableinfo{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 13%;
+    height: 3%;
+    padding: 20px;
+    position: fixed;
+    left: 35%;
+    top: 67%;
+}
+
+.inputA{
     border-style: solid;
     border-color: rgb(185, 185, 185);
     font-size: 20px;
@@ -33,7 +56,7 @@
     top: 40%;
 }
 
-.input2{
+.inputB{
     border-style: solid;
     border-color: rgb(184, 184, 184);
     font-size: 20px;
@@ -41,6 +64,26 @@
     position: fixed;
     left: 45%;
     top: 50%;
+}
+
+.inputC{
+    border-style: solid;
+    border-color: rgb(184, 184, 184);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 45%;
+    top: 60%;
+}
+
+.inputD{
+    border-style: solid;
+    border-color: rgb(184, 184, 184);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 45%;
+    top: 70%;
 }
 
 .Loginbutton{
@@ -69,6 +112,34 @@
     position: fixed;
     left: 40%;
     top: 60%;
+}
+
+.Backbutton{
+    background-color: rgb(184, 184, 184);
+    border-style: solid;
+    border-color: rgb(129, 129, 129);
+    color: black;
+    padding: 15px 32px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: fixed;
+    left: 40%;
+    top: 80%;
+}
+
+.Submitbutton{
+    background-color: rgb(201, 200, 200);
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    color: black;
+    padding: 15px 32px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: fixed;
+    left: 54%;
+    top: 80%;
 }
 
 #logo{
