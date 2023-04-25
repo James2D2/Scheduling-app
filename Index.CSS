@@ -1,6 +1,31 @@
+#UsernameEmail{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 6%;
+    height: 3%;
+    padding: 20px;
+    position: fixed;
+    left: 33%;
+    top: 37%;
+}
+
+#UserPassword{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 6%;
+    height: 3%;
+    padding: 20px;
+    position: fixed;
+    left: 37%;
+    top: 47%;
+}
+
+
 .input1{
     border-style: solid;
-    border-color: black;
+    border-color: rgb(185, 185, 185);
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     position: fixed;
@@ -10,7 +35,7 @@
 
 .input2{
     border-style: solid;
-    border-color: black;
+    border-color: rgb(184, 184, 184);
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     position: fixed;
