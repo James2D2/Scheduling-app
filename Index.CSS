@@ -42,3 +42,37 @@
     left: 45%;
     top: 50%;
 }
+
+.Loginbutton{
+    background-color: rgb(201, 200, 200);
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    color: black;
+    padding: 15px 32px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: fixed;
+    left: 54%;
+    top: 60%;
+}
+
+.Regbutton{
+    background-color: rgb(184, 184, 184);
+    border-style: solid;
+    border-color: rgb(129, 129, 129);
+    color: black;
+    padding: 15px 32px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: fixed;
+    left: 40%;
+    top: 60%;
+}
+
+#logo{
+    position:fixed;
+    top: -30px;;
+    left: 37%;
+}
