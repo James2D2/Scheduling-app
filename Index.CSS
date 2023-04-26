@@ -1,3 +1,6 @@
+/*Front page*/
+
+
 #UsernameEmail{
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -22,6 +25,7 @@
     top: 47%;
 }
 
+/*registration page*/
 #repassword{
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -46,6 +50,7 @@
     top: 67%;
 }
 
+/*Home page*/
 #Notes{
     font-size: 35px;
     font-family: 'Arial', sans-serif;
@@ -98,6 +103,7 @@
     top: 70%;
 }
 
+/*Account page*/
 .inputE{
     border-style: solid;
     border-color: rgb(184, 184, 184);
@@ -161,8 +167,10 @@
     position: fixed;
     left: 0%;
     top: 70%;
+    height: 300px;
+    width: 300px;
 }
-
+/*front/login page*/
 .Loginbutton{
     background-color: rgb(201, 200, 200);
     border-style: solid;
@@ -177,6 +185,7 @@
     top: 60%;
 }
 
+/*  Registration page*/
 .Regbutton{
     background-color: rgb(184, 184, 184);
     border-style: solid;
@@ -219,6 +228,7 @@
     top: 80%;
 }
 
+/*Home page*/
 .accountbutton{
     font-size: 18px;
     font-family: 'Arial', sans-serif;
@@ -362,6 +372,7 @@
     height: 600px;
 }
 
+/*Account page*/
 /*Dropdownbutton1*/
 
 .dropbtn {
@@ -463,6 +474,7 @@
     top: 75%;
 }
 
+/*Payslip page*/
 /*verticalmenu*/
 
 .vertical-menu {
@@ -511,6 +523,7 @@
 }
 
 
+/*Inbox page*/
 .verticalmenu {
     top: 600px;
     width: 200px; 
@@ -603,7 +616,7 @@
     height: 30%;
 }
 
-
+/*Availability page*/
 #availabilitymain{
     position:fixed;
     top: 250px;;
@@ -677,3 +690,35 @@
     left: 37%;
     top: 25%;
 }
+
+/*Calendar page*/
+#calendar2{
+    position:fixed;
+    top: 250px;;
+    left: 25%;
+    width: 1000px;
+    height: 1200px;
+}
+
+
+.vertmenu {
+    top: 600px;
+    width: 200px; 
+  }
+  
+  .vertmenu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+  }
+  
+  .vertmenu a:hover {
+    background-color: #ccc; 
+  }
+  
+  .vertmenu a.active {
+    background-color: #acacac;
+    color: white;
+  }
