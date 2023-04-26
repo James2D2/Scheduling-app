@@ -511,45 +511,94 @@
 }
 
 
-/* Style the tab */
-.tab {
-    float: left;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+.verticalmenu {
+    top: 600px;
+    width: 200px; 
+  }
+  
+  .verticalmenu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+  }
+  
+  .verticalmenu a:hover {
+    background-color: #ccc; 
+  }
+  
+  .verticalmenu a.active {
+    background-color: #acacac;
+    color: white;
+  }
+
+  #From{
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    width: 6%;
+    height: 3%;
+    padding: 20px;
+    position: fixed;
+    left: 37%;
+    top: 25%;
+}
+
+#To{
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    width: 6%;
+    height: 3%;
+    padding: 20px;
+    position: fixed;
+    left: 37%;
+    top: 30%;
+}
+
+#Newemail{
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    width: 6%;
+    height: 3%;
+    padding: 20px;
+    position: fixed;
+    left: 37%;
+    top: 40%;
+}
+
+.inputFrom{
+    border-style: solid;
+    border-color: rgb(184, 184, 184);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 50%;
+    top: 27%;
     width: 30%;
-    height: 300px;
-  }
-  
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
-    display: block;
-    background-color: inherit;
-    color: black;
-    padding: 22px 16px;
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-  }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-  }
-  
-  /* Create an active/current "tab button" class */
-  .tab button.active {
-    background-color: #ccc;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
-    float: left;
-    padding: 0px 12px;
-    border: 1px solid #ccc;
-    width: 70%;
-    border-left: none;
-    height: 300px;
-    display: none;
-  }
+}
+
+.inputTo{
+    border-style: solid;
+    border-color: rgb(184, 184, 184);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 50%;
+    top: 33%;
+    width: 30%;
+}
+
+.inputemail{
+    border-style: solid;
+    border-color: rgb(184, 184, 184);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    width: 30%;
+    height: 30%;
+}
